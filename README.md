@@ -1,24 +1,31 @@
-# hello-world
+# Snapshot testing POC
 
 ## Project setup
-```
-npm install
+
+```bash
+    npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run serve
+
+```bash
+    npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### For running test suit
+
+```bash
+npm run test:unit
 ```
 
-### Lints and fixes files
-```
-npm run lint
+### For running test cases for single component
+
+```bash
+    npm run test:unit {Name of component}
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### For updating snapshot
+
+```bash
+    npm run test:unit -- -u
+```
